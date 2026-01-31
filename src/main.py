@@ -51,9 +51,20 @@ def main(win, width):
             elif event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_SPACE:
                     utils.ripple_cascade(WIN, grid, ROWS, width, start, constants.yellow)
+                if event.key == pygame.K_r: # Reset Key
+                    start = None
+                    end = None
+                    setup.reset_grid(grid)
+                
                 if event.key == pygame.K_c:
-                    print(startnode)
-                    print(endnode)
+                    print("\033[H\033[J")  # Clear console
+                    print("Current Start and End Nodes:")
+                    print(f"Start: {startnode}")
+                    print(f"End: {endnode}")
+                
+                if event.key == pygame.K_ESCAPE:
+                    exit(0)
+                    
     pygame.quit()
 
 if __name__ == "__main__":

@@ -35,3 +35,8 @@ def get_clicked_pos(pos, rows, width):
     row = y // gap
     col = x // gap
     return row, col
+
+def reset_grid(grid):
+    for row in grid:
+        for node in row:
+            node.color = constants.white

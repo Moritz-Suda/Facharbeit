@@ -7,6 +7,7 @@ found_end = False
 
 def ripple_cascade(win, grid, rows, width, start_node, color):
     max_dist = rows * 2 
+    node_number = 0
     start_r, start_c = start_node.row, start_node.col
 
     for dist in range(max_dist):
@@ -15,6 +16,8 @@ def ripple_cascade(win, grid, rows, width, start_node, color):
             for c in range(rows):
                 if abs(r - start_r) + abs(c - start_c) == dist:
                     node = grid[r][c]
+                    node_number += 1
+                    print("Distance of node {} is {}".format(node_number, dist))
                     if node.color == (255, 255, 255): 
                         node.color = color
                         found_any = True
