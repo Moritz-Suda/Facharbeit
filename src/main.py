@@ -1,6 +1,7 @@
 import pygame
 import setup
 import constants as constants
+import utils
     
 
 
@@ -26,12 +27,16 @@ def main(win, width):
                     start = node
                     start.color = constants.red
                     node.color = constants.red
+                    startnode = row, col
                 elif not end and node != start:
                     end = node
                     end.color = constants.green
                     node.color = constants.green
+                    endnode = row, col
                 elif node != end and node != start:
                     node.color = constants.black
+                    wall = []
+                    wall.append((row, col))
 
             elif pygame.mouse.get_pressed()[2]:
                 pos = pygame.mouse.get_pos()
@@ -42,7 +47,13 @@ def main(win, width):
                     start = None
                 elif node == end:
                     end = None
-
+            
+            elif event.type == pygame.KEYDOWN:
+                if event.key == pygame.K_SPACE:
+                    utils.ripple_cascade(WIN, grid, ROWS, width, start, constants.yellow)
+                if event.key == pygame.K_c:
+                    print(startnode)
+                    print(endnode)
     pygame.quit()
 
 if __name__ == "__main__":
