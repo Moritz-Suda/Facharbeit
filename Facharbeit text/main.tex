@@ -1,0 +1,85 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[left=3.0cm, right=3.0cm, top=2.5cm, bottom=2.5cm]{geometry}
+\usepackage{setspace}
+\onehalfspacing
+\usepackage[ngerman]{babel}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\setlength{\headheight}{14.5pt}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\fancyhead[L]{Pathfinding Visualisation}
+\fancyfoot[C]{\thepage}
+
+\begin{document}
+
+\begin{titlepage}
+    \centering
+    \vspace*{1cm}
+    {\huge \textbf{Facharbeit}} \\
+    \vspace{0.5cm}
+    {\large im Fach Praxis -- Informationstechnik} \\ \relax
+    \vspace{2cm}
+    {\Large \textbf{Thema: Visualisierung und Implementierung eines Pathfinding-Algorithmus (BFS) in Python}} \\ \relax
+    \vspace{3cm}
+    \begin{tabular}{ll}
+        Vorgelegt von: & Moritz Suda \\
+        Kurs: & PFI 24 \\
+        Fachlehrer: & Herr Reimers \\
+        Abgabedatum: & 17. März 2026
+    \end{tabular}
+\end{titlepage}
+
+\pagenumbering{Roman}
+\tableofcontents
+\newpage
+\listoffigures
+\newpage
+
+\pagenumbering{arabic}
+\setcounter{page}{1} 
+\renewcommand{\thepage}{- \arabic{page} -}
+
+\section{Einleitung}   
+
+\section{Theoretische Grundlagen}
+\subsection{Graphentheorie und Raster-Navigation}
+\subsection{Funktionsweise des Breadth-First-Search (BFS)}
+
+\section{Implementierung und Durchführung}
+\subsection{Software-Architektur und Pygame-GUI}
+\subsection{Algorithmus-Logik und Nachbarschaftserkennung}
+
+\section{Fazit und Reflexion}
+
+\newpage
+
+\pagenumbering{roman}
+\fancyhead[L]{Anhang}
+\section*{Anhang}
+\addcontentsline{toc}{section}{Anhang}
+
+\subsection*{A. Zeitablaufplanung}
+\subsection*{B. KI-Dokumentation}
+
+\subsection*{C. Quellcode}
+
+\newpage
+
+\section*{Selbstständigkeitserklärung}
+Ich erkläre, dass ich die Facharbeit ohne fremde Hilfe angefertigt und nur die im Literaturverzeichnis aufgeführten Quellen und Hilfsmittel benutzt habe. Die Stellen der Facharbeit, die aus anderen Werken oder Quellen entnommen wurden, habe ich unter Angabe der Quelle kenntlich gemacht. Ebenso wurde die Verwendung von KI unter Angabe des Prompts kenntlich gemacht. Mit der schulinternen Veröffentlichung erkläre ich mich einverstanden.
+
+\vspace{2cm}
+\noindent
+Oldenburg, den 17.03.2026 \hfill \rule{5cm}{0.4pt} \\
+\indent \hfill Moritz Suda
+
+\end{document}

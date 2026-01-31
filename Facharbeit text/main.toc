@@ -1,0 +1,10 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {section}{\numberline {1}Einleitung}{- 1 -}{}%
+\contentsline {section}{\numberline {2}Theoretische Grundlagen}{- 1 -}{}%
+\contentsline {subsection}{\numberline {2.1}Graphentheorie und Raster-Navigation}{- 1 -}{}%
+\contentsline {subsection}{\numberline {2.2}Funktionsweise des Breadth-First-Search (BFS)}{- 1 -}{}%
+\contentsline {section}{\numberline {3}Implementierung und Durchführung}{- 1 -}{}%
+\contentsline {subsection}{\numberline {3.1}Software-Architektur und Pygame-GUI}{- 1 -}{}%
+\contentsline {subsection}{\numberline {3.2}Algorithmus-Logik und Nachbarschaftserkennung}{- 1 -}{}%
+\contentsline {section}{\numberline {4}Fazit und Reflexion}{- 1 -}{}%
+\contentsline {section}{Anhang}{i}{}%
