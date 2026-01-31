@@ -1,5 +1,5 @@
 import pygame
-import constants
+import constants as constants
 
 class Node:
     def __init__(self, row, col, width):

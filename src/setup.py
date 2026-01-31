@@ -1,7 +1,7 @@
 import pygame
 import node
 from node import Node
-import constants
+import constants as constants
 
 def make_grid(rows, width):
     grid = []

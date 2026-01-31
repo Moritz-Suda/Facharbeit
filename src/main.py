@@ -1,6 +1,6 @@
 import pygame
 import setup
-import constants
+import constants as constants
     
 
 
@@ -18,7 +18,7 @@ def main(win, width):
             if event.type == pygame.QUIT:
                 run = False
 
-            if pygame.mouse.get_pressed()[0]: # LEFT
+            if pygame.mouse.get_pressed()[0]:
                 pos = pygame.mouse.get_pos()
                 row, col = setup.get_clicked_pos(pos, ROWS, width)
                 node = grid[row][col]
@@ -33,7 +33,7 @@ def main(win, width):
                 elif node != end and node != start:
                     node.color = constants.black
 
-            elif pygame.mouse.get_pressed()[2]: # RIGHT
+            elif pygame.mouse.get_pressed()[2]:
                 pos = pygame.mouse.get_pos()
                 row, col = setup.get_clicked_pos(pos, ROWS, width)
                 node = grid[row][col]
