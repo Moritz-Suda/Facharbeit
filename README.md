@@ -16,7 +16,17 @@ Dies ist das GitHub repository für meine abi Facharbeit
 - `visualizer.py`: Visualisierung
 
 # TODO
-- [ ] Implementiere Best-First Search Algorithmus
+- [x] MVP - Grid Logic
+- [x] MVP - Fenster Erstellen
+- [ ] MVP - BFS Algorythm
+- [ ] MVP - Information collection Prt 1 (visualisation)
+- [ ] MVP - Inforamtion collection Prt 2 (BFS prt 1)
+- [ ] MVP - Information collection Prt 3 (BFS prt 2)
+- [ ] code rewriting
+- [ ] villeicht mehr algos hinzufügen
+- [ ] Facharbeit schreiben
+- [ ] Präsi erstellen
+- [ ] Mündliche Prüfung vorbereiten
 
 # Sources
 - [BFS Visualizer inspo]https://github.com/Skywalklau/BFS-Visualizer/blob/main/main.py
