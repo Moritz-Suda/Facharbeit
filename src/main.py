@@ -1,7 +1,6 @@
 import pygame
 import setup
 import constants as constants
-import test_visualisation
 import algorithm
 
 
@@ -13,7 +12,9 @@ def main(win, width):
 
     start = None
     end = None
-    
+    startnode = None
+    endnode = None
+
     run = True
     while run:
         setup.draw(win, grid, ROWS, width)
@@ -49,8 +50,6 @@ def main(win, width):
                     end = None
             
             elif event.type == pygame.KEYDOWN:
-                if event.key == pygame.K_SPACE:
-                    test_visualisation.ripple_cascade(WIN, grid, ROWS, width, start, constants.yellow)
                 if event.key == pygame.K_r:
                     start = None
                     end = None
@@ -62,7 +61,7 @@ def main(win, width):
                     print(f"Start: {startnode}")
                     print(f"End: {endnode}")
 
-                if event.key == pygame.K_a:
+                if event.key == pygame.K_SPACE:
                     if start and end:
                         for row in grid:
                             for node in row:

@@ -5,8 +5,8 @@ class Node:
     def __init__(self, row, col, width):
         self.row = row
         self.col = col
-        self.x = row * width
-        self.y = col * width
+        self.y = row * width
+        self.x = col * width
         self.color = constants.white
         self.width = width
 

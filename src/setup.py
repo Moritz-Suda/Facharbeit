@@ -31,7 +31,7 @@ def draw(win, grid, rows, width):
 
 def get_clicked_pos(pos, rows, width):
     gap = width // rows
-    y, x = pos
+    x, y = pos
     row = y // gap
     col = x // gap
     return row, col
