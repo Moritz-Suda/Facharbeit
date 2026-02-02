@@ -27,16 +27,14 @@ def main(win, width):
                 node = grid[row][col]
                 if not start and node != end:
                     start = node
-                    start.color = constants.red
-                    node.color = constants.red
+                    start.make_start()
                     startnode = row, col
                 elif not end and node != start:
                     end = node
-                    end.color = constants.green
-                    node.color = constants.green
+                    end.make_end()
                     endnode = row, col
                 elif node != end and node != start:
-                    node.color = constants.black
+                    node.make_barrier()
                     wall = []
                     wall.append((row, col))
 
@@ -44,7 +42,7 @@ def main(win, width):
                 pos = pygame.mouse.get_pos()
                 row, col = setup.get_clicked_pos(pos, ROWS, width)
                 node = grid[row][col]
-                node.color = constants.white
+                node.reset()
                 if node == start:
                     start = None
                 elif node == end:
@@ -53,20 +51,24 @@ def main(win, width):
             elif event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_SPACE:
                     test_visualisation.ripple_cascade(WIN, grid, ROWS, width, start, constants.yellow)
-                if event.key == pygame.K_r: # Reset Key
+                if event.key == pygame.K_r:
                     start = None
                     end = None
                     setup.reset_grid(grid)
                 
                 if event.key == pygame.K_c:
-                    print("\033[H\033[J")  # Clear console
+                    print("\033[H\033[J") 
                     print("Current Start and End Nodes:")
                     print(f"Start: {startnode}")
                     print(f"End: {endnode}")
 
                 if event.key == pygame.K_a:
                     if start and end:
-                        algorithm.bfs(ROWS, startnode, endnode)                
+                        for row in grid:
+                            for node in row:
+                                node.update_neighbors(grid, ROWS, width)
+                        
+                        algorithm.bfs(lambda: setup.draw(win, grid, ROWS, width), grid, start, end)                
                 
                 if event.key == pygame.K_ESCAPE:
                     exit(0)
