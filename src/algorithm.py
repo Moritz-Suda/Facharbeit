@@ -34,9 +34,12 @@ def bfs(draw, grid, start, end):
                 neighbor.make_open()
         
         draw()
+        if not queue:
+            print("No Path Found")
+            return False
 
         if current != start:
             current.make_closed()
-
+        pygame.time.delay(50)
     return False
 
