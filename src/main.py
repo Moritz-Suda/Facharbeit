@@ -2,11 +2,13 @@ import pygame
 import setup
 import constants as constants
 import test_visualisation
-    
+import algorithm
 
+
+global ROWS
+ROWS = 10
 
 def main(win, width):
-    ROWS = 10
     grid = setup.make_grid(ROWS, width)
 
     start = None
@@ -61,6 +63,10 @@ def main(win, width):
                     print("Current Start and End Nodes:")
                     print(f"Start: {startnode}")
                     print(f"End: {endnode}")
+
+                if event.key == pygame.K_a:
+                    if start and end:
+                        algorithm.bfs(ROWS, startnode, endnode)                
                 
                 if event.key == pygame.K_ESCAPE:
                     exit(0)
