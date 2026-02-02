@@ -1,7 +1,7 @@
 import pygame
 import setup
 import constants as constants
-import utils
+import test_visualisation
     
 
 
@@ -50,7 +50,7 @@ def main(win, width):
             
             elif event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_SPACE:
-                    utils.ripple_cascade(WIN, grid, ROWS, width, start, constants.yellow)
+                    test_visualisation.ripple_cascade(WIN, grid, ROWS, width, start, constants.yellow)
                 if event.key == pygame.K_r: # Reset Key
                     start = None
                     end = None
