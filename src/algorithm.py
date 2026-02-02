@@ -40,6 +40,5 @@ def bfs(draw, grid, start, end):
 
         if current != start:
             current.make_closed()
-        pygame.time.delay(50)
     return False
 

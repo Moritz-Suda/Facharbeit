@@ -40,7 +40,7 @@ class Node:
         return self.color == constants.orange
 
     def is_end(self):
-        return self.color == constants.turquoise
+        return self.color == constants.green
 
     def reset(self):
         self.color = constants.white
@@ -52,13 +52,13 @@ class Node:
         self.color = constants.red
 
     def make_open(self):
-        self.color = constants.green
+        self.color = constants.turquoise
 
     def make_barrier(self):
         self.color = constants.black
 
     def make_end(self):
-        self.color = constants.turquoise
+        self.color = constants.green
 
     def make_path(self):
         self.color = constants.purple
