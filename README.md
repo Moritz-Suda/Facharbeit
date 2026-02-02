@@ -29,7 +29,7 @@ Dies ist das GitHub repository für meine abi Facharbeit
 - [ ] Mündliche Prüfung vorbereiten
 
 # Sources
-- [BFS Visualizer inspo]https://github.com/Skywalklau/BFS-Visualizer/blob/main/main.py
+- [BFS Visualizer inspo](https://github.com/Skywalklau/BFS-Visualizer/blob/main/main.py)
 - [YouTube: A* Pathfinding Algo (Part 1 - Setup)](https://www.youtube.com/watch?v=JtiK0DOeI4A)
 - [YouTube: Breadth First Search Algorithm](https://www.youtube.com/watch?v=sVQBsaTaYrw)
 - [Faaez Razeen: Building a Pathfinding Visualizer](https://faaez.co.in/blog/2020/07/26/pathfinding-visualizer-part1/)
