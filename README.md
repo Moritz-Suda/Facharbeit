@@ -2,11 +2,14 @@
 Dies ist das GitHub repository für meine abi Facharbeit
 
 # Setup
-- Python 3.12
+- Python 3.14
 - Pygame
 
 # Usage
-- `python main.py`
+- `python -m venv .env`
+- `sourc .env/bin/activate`
+- `pip install pygame`
+- `python3.14 ./src/main.py`
 
 # Inhalte
 - `main.py`: Hauptprogramm
