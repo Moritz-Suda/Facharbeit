@@ -17,3 +17,14 @@ Dies ist das GitHub repository für meine abi Facharbeit
 
 # TODO
 - [ ] Implementiere Best-First Search Algorithmus
+
+# Sources
+- [BFS Visualizer inspo]https://github.com/Skywalklau/BFS-Visualizer/blob/main/main.py
+- [YouTube: A* Pathfinding Algo (Part 1 - Setup)](https://www.youtube.com/watch?v=JtiK0DOeI4A)
+- [YouTube: Breadth First Search Algorithm](https://www.youtube.com/watch?v=sVQBsaTaYrw)
+- [Faaez Razeen: Building a Pathfinding Visualizer](https://faaez.co.in/blog/2020/07/26/pathfinding-visualizer-part1/)
+- [Red Blob Games: Introduction to A*](https://www.redblobgames.com/pathfinding/a-star/introduction.html)
+- [GeeksForGeeks: Breadth First Search](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)
+- [Pygame Documentation](https://www.pygame.org/docs/)
+- [Python Deque Documentation](https://docs.python.org/3/library/collections.html#collections.deque)
+- [MONZONÍS LAPARRA, Daniel. Pathfinding algorithms in graphs and applications.] [consulted: 31 of January of 2026]. [Available at: https://hdl.handle.net/2445/140466]
