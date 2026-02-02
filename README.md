@@ -21,9 +21,9 @@ Dies ist das GitHub repository für meine abi Facharbeit
 # TODO
 - [x] MVP - Grid Logic
 - [x] MVP - Fenster Erstellen
-- [ ] MVP - BFS Algorythm
-- [ ] MVP - Information collection Prt 1 (visualisation)
-- [ ] MVP - Inforamtion collection Prt 2 (BFS prt 1)
+- [x] MVP - BFS Algorythm
+- [x] MVP - Information collection Prt 1 (visualisation)
+- [x] MVP - Inforamtion collection Prt 2 (BFS prt 1)
 - [ ] MVP - Information collection Prt 3 (BFS prt 2)
 - [ ] code rewriting
 - [ ] villeicht mehr algos hinzufügen
