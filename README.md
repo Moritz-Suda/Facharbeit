@@ -7,7 +7,7 @@ Dies ist das GitHub repository für meine abi Facharbeit
 
 # Usage
 - `python -m venv .env`
-- `sourc .env/bin/activate`
+- `source .env/bin/activate`
 - `pip install pygame`
 - `python3.14 ./src/main.py`
 
