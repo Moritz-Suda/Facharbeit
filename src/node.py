@@ -31,7 +31,7 @@ class Node:
         return self.color == constants.red
 
     def is_open(self):
-        return self.color == constants.green
+        return self.color == constants.turquoise
 
     def is_barrier(self):
         return self.color == constants.black
