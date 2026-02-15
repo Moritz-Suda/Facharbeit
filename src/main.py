@@ -52,12 +52,6 @@ def main(win, width):
                     start = None
                     end = None
                     setup.reset_grid(grid)
-                
-                if event.key == pygame.K_c:
-                    print("\033[H\033[J") 
-                    print("Current Start and End Nodes:")
-                    print(f"Start: {startnode}")
-                    print(f"End: {endnode}")
 
                 if event.key == pygame.K_SPACE:
                     if start and end:
