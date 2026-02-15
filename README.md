@@ -11,12 +11,6 @@ Dies ist das GitHub repository für meine abi Facharbeit
 - `pip install pygame`
 - `python3.14 ./src/main.py`
 
-# Inhalte
-- `main.py`: Hauptprogramm
-- `grid.py`: Grid-Klasse
-- `node.py`: Node-Klasse
-- `pathfinding.py`: Pfadfindungsalgorithmen
-- `visualizer.py`: Visualisierung
 
 # TODO
 - [x] MVP - Grid Logic
