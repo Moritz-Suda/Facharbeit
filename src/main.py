@@ -36,8 +36,6 @@ def main(win, width):
                     endnode = row, col
                 elif node != end and node != start:
                     node.make_barrier()
-                    wall = []
-                    wall.append((row, col))
 
             elif pygame.mouse.get_pressed()[2]:
                 pos = pygame.mouse.get_pos()
