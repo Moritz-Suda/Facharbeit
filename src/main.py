@@ -5,7 +5,7 @@ import algorithm
 
 
 global ROWS
-ROWS = 10
+ROWS = 100
 
 def main(win, width):
     grid = setup.make_grid(ROWS, width)
@@ -65,9 +65,11 @@ def main(win, width):
                     exit(0)
                     
     pygame.quit()
-
-if __name__ == "__main__":
-    WIDTH = 800
-    WIN = pygame.display.set_mode((WIDTH, WIDTH))
-    pygame.display.set_caption("Path Finding Algorithm")
-    main(WIN, WIDTH)
+try:
+    if __name__ == "__main__":
+        WIDTH = 800
+        WIN = pygame.display.set_mode((WIDTH, WIDTH))
+        pygame.display.set_caption("Path Finding Algorithm")
+        main(WIN, WIDTH)
+except:
+    print("An error occurred. Please try again.")
