@@ -5,7 +5,7 @@ Dies ist das GitHub repository für meine abi Facharbeit
 - Python 3.14
 - Pygame
 
-# Usage
+# Linxu Usage
 - `python -m venv .env`
 - `source .env/bin/activate`
 - `pip install pygame`
