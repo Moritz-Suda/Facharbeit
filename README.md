@@ -18,7 +18,7 @@ Dies ist das GitHub repository für meine abi Facharbeit
 - [x] MVP - BFS Algorythm
 - [x] MVP - Information collection Prt 1 (visualisation)
 - [x] MVP - Inforamtion collection Prt 2 (BFS prt 1)
-- [ ] MVP - Information collection Prt 3 (BFS prt 2)
+- [x] MVP - Information collection Prt 3 (BFS prt 2)
 - [ ] code rewriting
 - [ ] villeicht mehr algos hinzufügen
 - [ ] Facharbeit schreiben
