@@ -5,7 +5,7 @@ import algorithm
 
 
 global ROWS
-ROWS = 100
+ROWS = 10
 
 def main(win, width):
     grid = setup.make_grid(ROWS, width)
