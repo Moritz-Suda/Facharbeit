@@ -19,11 +19,12 @@ Dies ist das GitHub repository für meine abi Facharbeit
 - [x] MVP - Information collection Prt 1 (visualisation)
 - [x] MVP - Inforamtion collection Prt 2 (BFS prt 1)
 - [x] MVP - Information collection Prt 3 (BFS prt 2)
-- [ ] code rewriting
-- [ ] villeicht mehr algos hinzufügen
-- [ ] Facharbeit schreiben
-- [ ] Präsi erstellen
-- [ ] Mündliche Prüfung vorbereiten
+- [x] Facharbeit schreiben
+- [x] Präsi erstellen
+- [x] Mündliche Prüfung vorbereiten
+
+# Status
+vollendet
 
 # Sources
 - [YouTube: A* Pathfinding Algo (Part 1 - Setup)](https://www.youtube.com/watch?v=JtiK0DOeI4A)
